@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  characters = [
+    'Finn the human',
+    'Jake the dog',
+    'Princess bubblegum',
+    'Lumpy Space Princess',
+    'Beemo1',
+    'Beemo2'
+  ]
 }
